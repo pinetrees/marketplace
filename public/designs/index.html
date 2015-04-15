@@ -1,0 +1,195 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Environmental Services Marketplace</title>
+  <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/custom-style.css" />
+  <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="js/vendor/modernizr.js"></script>
+</head>
+<body>
+
+<section class="header-section">
+<div class="row">
+  <div class="small-12 columns">
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area">
+      <li class="name logo">
+        <h1><a href="#">esm</a></h1>
+        <span>Environmental Services Marketplace</span>
+      </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li><a href="#">Market</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="loginModal" data-reveal-id="loginModal">Login</a></li>
+        <li><a href="#">Track Your Project</a></li>
+      </ul>
+
+    </section>
+  </nav>
+  </div>
+</div> <!--/.row-->
+
+<!-- Slider -->
+<div class="row slider">
+  <div class="small-12 columns">
+    <ul class="content-slider" data-orbit>
+      <!-- Slide 1 -->
+      <li data-orbit-slide="headline-1">
+        <div class="text-center">
+          <h2>Know what you need?</h2>
+          <h3>Then let us find you the best offer.</h3>
+          <a class="button button-hollow">Find Environmental Services</a>
+        </div>
+      </li>
+      <!-- Slide 2 -->
+      <li data-orbit-slide="headline-2">
+        <div class="text-center">
+          <h2>We'll guide you through your project</h2>
+          <h3>With free recommendations and tracking.</h3>
+          <a class="button button-hollow">Track a project</a>
+        </div>
+      </li>
+      <!-- Slide 3 -->
+      <li data-orbit-slide="headline-3">
+        <div class="text-center">
+          <h2>Post your project</h2>
+          <h3>Have environmental firms send you proposals.</h3>
+          <a class="button button-hollow">Post an Environmental Project</a>
+        </div>
+      </li>
+    </ul>
+  </div>  
+<div> <!--/.slider-->
+</section>
+
+<section class="section" id="home-intro">
+<div class="row text-center">
+  <div class="small-12 medium-6 columns home-intro-section">
+    <a class="icon-block">
+      <i class="fa fa-recycle"></i>
+      <h6>Environmental Service Provider</h6>
+    </a>  
+    <p>Register your environmental services so that they are clearer and more accessible to your customers</p>
+    <a>Learn more about this</a>
+  </div>
+  <div class="small-12 medium-6 columns home-intro-section">
+    <a class="icon-block">
+      <i class="fa fa-user"></i>
+      <h6>Environmental Customer</h6>
+    </a> 
+    <p>Do you require an environmental professional? Either <a href="#">request a service</a> or <a href="#">post your project</a> and have the professionals send you proposals.</p>
+     <a>Learn more about this</a>
+  </div>
+<div> <!--/.row-->
+
+<div class="row collapse">
+  <div class="small-12 columns">
+    <div data-alert="" class="alert-box radius">
+      Let's add a <strong>very important</strong> alert here, to capture the readers attention
+      <a href="" class="close">×</a>
+    </div>
+  </div>
+<div> <!--/.row-->
+</section>
+
+<section class="section" id="home-invite">
+<div class="row">
+  <div class="small-12 columns text-center">
+    <h4>Ready to join ESM?  <a class="button button-success">Get Started</a></h4>
+  </div>
+<div> <!--/.row-->
+</section>
+
+<?php include("footer.php"); ?>
+
+<!--Start Registration Modal
+    Uses zurb js attributes, a row, and a form
+    =========================================== -->
+<div id="registerModal" class="reveal-modal" data-reveal>
+  <div class="row">
+    <div class="small-12 medium-9 medium-centered large-5 large-centered reveal-form columns">
+      <h3 class="pageheader">Become a Member</h3>
+      <form>
+        <select name="registration-identity">
+          <option value="provider">I am a provider</option>
+          <option value="taker">I am a taker</option>
+        </select>
+
+        <input type="text" name="registration-first" placeholder="First Name">
+
+        <input type="text" name="registration-last" placeholder="Last Name">
+
+        <input type="email" name="registration-email" placeholder="Email Address">
+
+        <input type="password" name="registration-password" placeholder="Password">
+
+        <input type="password" name="registration-password-confirm" placeholder="Confirm Password">
+
+        <input type="checkbox" name="registration-checkbox" id="registration-checkbox"><label for="registration-checkbox">I am cool.</label>
+
+        <a class="btn-passport btn-blue" href="thanksModal" data-reveal-id="thanksModal">Register</a>
+      </form>
+      <a class="close-reveal-modal">&#215;</a>
+    </div>
+  </div> <!--/.row-->
+</div>
+<!--End Registration Modal-->
+
+<!--Start Login Modal
+    Uses zurb js attributes, a row, and a form
+    =========================================== -->
+<div id="loginModal" class="reveal-modal" data-reveal>
+  <div class="row">
+    <div class="small-12 medium-9 medium-centered large-5 large-centered reveal-form columns">
+      <h3 class="pageheader">Login</h3>
+      <form>
+
+        <input type="email" name="login-email" placeholder="Email Address">
+
+        <input type="password" name="login-password" placeholder="Password">
+
+        <input type="checkbox" name="login-checkbox" id="login-checkbox"><label for="login-checkbox">I am cool.</label>
+
+        <a class="btn-passport btn-blue">Login</a>
+      </form>
+      <a class="close-reveal-modal">&#215;</a>
+            <p class="reveal-asterisk">&#42; Not a member? <a href="registerModal" class="modal-action" data-reveal-id="registerModal">Register</a></p>
+
+    </div>
+  </div> <!--/.row-->
+</div>
+<!--End Login Modal-->
+
+<!--Start Thanks Modal
+    Uses zurb js attributes, a row, and a p
+    =========================================== -->
+<div id="thanksModal" class="reveal-modal" data-reveal>
+  <div class="row">
+    <div class="small-12 medium-9 medium-centered large-5 large-centered reveal-form columns">
+      <h3 class="pageheader">Thank you!</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        <a href="#" class="btn-passport btn-blue">My Profile</a>
+        <a class="close-reveal-modal">&#215;</a>
+    </div>
+  </div> <!--/.row-->
+</div>
+<!--End Thanks Modal-->
+
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>

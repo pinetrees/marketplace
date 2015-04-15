@@ -1,0 +1,134 @@
+/* Administration
+================================================== */
+.admin-options.child-half li {
+	width: 50%;
+}
+.admin-options a {
+	width: 100%;
+	background: #7accc8;
+	border-bottom: 3px solid #55beb9 !important;
+}
+.admin-options a:hover {
+	background: #55beb9;
+}
+
+
+/* Utility 
+================================================== */
+.half {
+	width: 50%;
+}
+table.half {
+	border: none;
+}
+.inline {
+	display: inline-block;
+}
+.full, .full-width {
+	width: 100%;
+}
+input.new {
+	margin: 0px;
+}
+.delete {
+	background: #e45f56;
+}
+table.data tr.data:hover, table.data tr.data.active, table .users tr:hover, table .users tr.active {
+	background-color: #d5efee;
+	color: black;
+}
+.padless {
+	padding: 0px !important;
+}
+input[type="submit"] {
+	color: white;
+}
+.three-actions li {
+	width: 33%;
+}
+.hide-important {
+	display: none !important;
+}
+.up-10 {
+	z-index: 10;
+}
+.row.admin-content {
+	padding-left: 20px;
+}
+.response-message {
+	color: red;
+}
+div.switch label {
+	position: relative;
+	left: 0;
+	z-index: 2;
+	float: left;
+	width: 30%;
+	height: 100%;
+	margin: 0;
+	font-weight: bold;
+	text-align: left;
+	transition: all 0.1s ease-out; 
+}
+label.left {
+	margin-left: 15px !important;
+}
+label.right {
+	margin-right: 15px !important;
+}
+.reveal-modal.message .reveal-form {
+	width: 70%;
+}
+.category-option {
+	cursor: pointer;
+}
+input[name="proposal"] {
+	display: none;
+}
+.thread.unread {
+	background: #35404f;
+	font-weight: bold;
+	border: solid 2px red;
+}
+.thread a, .thread p {
+	color: #35404f;
+}
+.thread.unread a, .thread.unread p {
+	color: white;
+}
+.padless {
+	padding: 0px;
+}
+.center {
+	text-align: center !important;
+}
+.fa-spin {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: white;
+}
+.loading {
+	width: 100%;
+	height: 100%;
+	z-index: 500;
+	position: absolute;
+	top: 0px;
+	background: black;
+	opacity: 0.5;
+	filter: greyscale (50%);
+	display: none;
+}
+
+.users tr:hover {
+	opacity: 0.9;
+}
+span.p {
+  font-family: inherit;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  text-rendering: optimizeLegibility; 
+}

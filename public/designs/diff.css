@@ -1,0 +1,51 @@
+52,60d51
+< .btn-blue:hover {
+< 	background: #212730 !important;
+< }
+< .button-small {
+< 	padding-top: .5rem;
+< 	padding-right: 1rem;
+< 	padding-bottom: 0.53125rem;
+< 	padding-left: 1rem;
+< }
+.dropdown li a {
+	border: 1px solid #dadad9;
+	color: #90a2a9 !important;
+	border-radius: 0 !important;
+	margin-bottom: -12px !important;
+}
+.top-bar-section .has-dropdown > a:after {
+    border-color: #90a2a9 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    margin-top: 6px;
+}
+---
+> 
+274c256
+< 	padding: 20px 0 45px 0;
+---
+> 	/*padding: 20px 0 45px 0;*/
+428,429c410
+< .reveal-modal input,
+< .reveal-modal textarea {
+---
+> .reveal-modal input {
+440a422
+> 	color: white;
+468a451,453
+> .message.red {
+> 	color: #c45f56;
+> }
+793,798d777
+< /* Form Vault
+< ================================================== */
+< 
+< [data-abide] .error small.error, [data-abide] span.error, [data-abide] small.error {
+< 	background: #e45f56;
+< }
+815,820d793
+< 	}
+< 	.logo span {
+< 		display: none;
+< 	}
+< 	.toggle-topbar span {
+< 		color: #90a2a9;

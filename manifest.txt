@@ -1,0 +1,8 @@
+Add ability to request category
+Extend region functionality to category functionality
+Add ability to pair buyers and providers
+Add ability to upload an avatar image
+Add condition to limit loaded search results
+Add settings for users to turn tooltips off
+Add ability to bookmark listings
+Add ability to delete projects
